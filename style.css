@@ -1,0 +1,94 @@
+
+/* General */
+:root{
+  --black:#000000;
+  --white:#ffffff;
+  --gray:#999999;
+}
+body{
+  background-color:var(--black);
+  font-family:sans-serif;
+  color:var(--white);
+  font-size:20px;
+  padding:0;
+  margin:0;
+}
+.center{
+  text-align:center;
+}
+a{
+  text-decoration:underline;
+  color:var(--white);
+}
+a:hover{
+  text-decoration:none;
+}
+
+/* Header */
+.header{
+  background-image:url("./mario.png");
+  background-size:cover;
+  padding:35px 0;
+}
+.header h1{
+  text-align:center;
+  font-weight:bold;
+  font-size:40px;
+}
+
+/* About */
+.about{
+  grid-template-columns:50% 50%;
+  display:grid;
+}
+.about iframe{
+  height:20vw;
+}
+.about > div{
+  padding:15px 25px;
+}
+@media only screen and (max-width:1000px){
+  .about{
+    grid-template-columns:100%;
+  }
+  .about iframe{
+    height:40vw;
+  }
+}
+
+/* Social */
+.socials{
+  background-color:var(--gray);
+}
+.socials-wrapper{
+  grid-template-columns:50% 50%;
+  padding:15px 50px;
+  font-weight:bold;
+  font-size:24px;
+  display:grid;
+}
+@media only screen and (max-width:800px){
+  .socials-wrapper{
+    grid-template-columns:100%;
+  }
+}
+
+/* Resources */
+.resources-wrapper{
+  grid-template-columns:50% 50%;
+  padding:15px 50px;
+  font-size:22px;
+  display:grid;
+}
+@media only screen and (max-width:800px){
+  .resources-wrapper{
+    grid-template-columns:100%;
+  }
+}
+
+/* Footer */
+.footer{
+  border-top:solid 3px var(--gray);
+  text-align:center;
+  padding:20px 0;
+}
