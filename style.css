@@ -67,6 +67,7 @@ a:hover{
 .about iframe{
   min-height:28vw;
   height:100%;
+  width:100%;
 }
 .about > div{
   padding:25px 45px;
