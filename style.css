@@ -92,6 +92,7 @@ a:hover{
 /* Social */
 .socials{
   background-color:var(--gray);
+  text-align:center;
   padding:15px 0;
 }
 .socials-wrapper{
@@ -132,6 +133,7 @@ a:hover{
 /* Resources */
 .resources-wrapper{
   grid-template-columns:50% 50%;
+  text-align:center;
   padding:15px 10%;
   font-size:18px;
   display:grid;
