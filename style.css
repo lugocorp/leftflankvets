@@ -127,6 +127,7 @@ a:hover{
 @media only screen and (max-width:800px){
   .socials-wrapper{
     grid-template-columns:100%;
+    text-align:left;
   }
 }
 
@@ -140,6 +141,10 @@ a:hover{
 }
 .resources-wrapper h3{
   text-decoration:underline;
+}
+.resources-wrapper a{
+  margin-bottom:7px;
+  display:block;
 }
 @media only screen and (max-width:800px){
   .resources-wrapper{
